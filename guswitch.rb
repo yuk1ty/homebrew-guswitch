@@ -1,9 +1,9 @@
 class Guswitch < Formula
   desc "A utility tool for changing git users smoothly"
   homepage "https://github.com/yuk1ty/guswitch"
-  url "https://github.com/yuk1ty/guswitch.git", tag: "v0.0.1"
+  url "https://github.com/yuk1ty/guswitch.git", tag: "v0.1.0"
   head "https://github.com/yuk1ty/guswitch.git"
-  version "0.0.1"
+  version "0.1.0"
 
   def install
     system "curl", "-o", "gsu.zip", "-sL", "https://github.com/yuk1ty/guswitch/releases/download/v#{version}/gsu-aarch64-apple-darwin.zip"
